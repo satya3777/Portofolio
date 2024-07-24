@@ -1,0 +1,247 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  
+body {
+    background-color: #f2f2f2;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    align-items: right;
+    font-display: swap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+  
+  }
+
+
+  /* Navbar css */
+
+  #navmenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #292727;
+    position: fixed;
+    padding: 0 !important;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 99999;
+  }
+
+  .navbar-nav {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  #navicon {
+    width: 2em;
+    border-radius: 50%;
+  }
+  .navbar-toggler {
+    display: inline-block;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+  .active {
+    color: white;
+    background-color:rgb(121, 209, 49);
+  }
+  
+  .navbar-brand {
+    display: inline-block;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    display: block;
+    color: white !important;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(255, 249, 249);
+    color: #4ea5d9 !important;
+  }
+  
+  /* header css */
+ 
+  .header{
+    background: url(/resources/bg-header.jpg) no-repeat center top ;
+    min-height: 10vw;
+    padding-top: 13%;
+    padding-bottom: 13%;
+    text-align: center;
+    background-attachment: relative;
+    background-size: cover;
+    
+    
+  }
+
+  .header h1{
+    font-size: 80px;
+    color: white;
+    background: rgba(0 , 0, 0, 0.2);
+  }
+
+  #heading-desc{
+   font-size: 20px;
+   color: white;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 6);
+  }
+  
+  #heading-name {
+    text-shadow: 1px 2px #928f8f;
+    border-radius: 2px;
+}
+
+/* About section */
+
+.about{
+    background: rgb(48, 47, 47);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+.header-img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 50%;
+    position: static;
+    
+  }
+  .header-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    position: static;
+  }
+
+  .about i {
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;   
+  }
+
+  
+  #about {
+    text-align: justify-all;
+  }
+  
+  .col-lg-2{
+    padding-left: 30px;
+  }
+  #resume {
+    padding-top: 5%;
+    font-size: 120px;
+    
+  }
+
+  /* Social sites */
+  .social_media_panel{
+    background: #222222;
+    bottom: -60px !important;
+    display: block;
+    width: 350px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left:50%;
+    text-align: center;
+    transition: all 1s;
+    padding: 4px;
+    border-radius: 50px;
+    box-shadow: 0 0 50px rgba(0 , 0, 0, 2);
+  }
+  .social_media_links{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0%;
+  }
+  .icons{
+    font-size: 36px;
+    color: white;
+  }
+
+  #h5{
+    font-size: 18px;
+  }
+
+  #Education{
+    padding-top: 70px;
+  }
+
+  /* Skills section */
+.tab{
+  background-color: inherit;
+}
+.tab button{
+  background-color: #222222;
+  padding: 16px;
+  transition: 0.5s;
+  border: solid;
+}
+.tablink{
+  color: white;
+  text-align: center;
+  font:bold;
+}
+.tab button:hover{
+  background-color: white;
+  color: #4ea5d9;
+}
+/* footer - */
+.footer_img{
+  width: 95%;
+  height: auto;
+  border-radius: 50%;
+}
+#footer{
+  background: #222222;
+  padding-top: 50px;
+  padding-bottom: 17%;
+}
+.footersec h5{
+  color: white;
+  font-weight: 600 ;
+  text-align: center;
+}
+.footersec p{
+  color: white;
+}
+.footersec t{
+  font-weight: 600;
+}
+.mail{
+  color: #4ea5d9;
+}
+
+td{
+  color: white;
+  padding-left: 50px;
+}
+.copyright{
+  background: #222222;
+  padding-bottom: 2px;
+  text-align: center;
+  color: rgb(167, 166, 164);
+}
